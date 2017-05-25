@@ -1,0 +1,55 @@
+body {
+	background: url("https://source.unsplash.com/collection/566807") center center fixed;
+	background-size: cover;
+}
+
+.square {
+	position: relative;
+	top: 150px;
+	text-align: center;
+	height: auto;
+	max-height: 500px;
+	width: 100%;
+	max-width: 400px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.quote {
+	min-height: 160px;
+	height: 180px;
+	max-height: 250px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.row {
+	padding-bottom: 15px;
+}
+
+h1, h2, p {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.blockquote-reverse {
+	border: 0; 
+}
+
+.btn {
+	border-radius: 0;
+	background-color: #337ab7;
+	color: #fff;
+	height: 33px;
+}
+
+.btn:active, .btn:focus, .btn:active:focus, .btn:hover {
+	outline: 0;
+	border: 0;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #23527c;
+}
